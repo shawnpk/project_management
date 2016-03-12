@@ -7,6 +7,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+gem 'devise', '~> 3.5', '>= 3.5.6'
+gem 'milia', '~> 1.2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
@@ -22,3 +24,6 @@ end
 group :production do
   gem 'rails_12factor', '~> 0.0.3'
 end
+
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
