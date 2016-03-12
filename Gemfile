@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'milia', '~> 1.2'
+gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'devise-bootstrap-views', '~> 0.0.8'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
